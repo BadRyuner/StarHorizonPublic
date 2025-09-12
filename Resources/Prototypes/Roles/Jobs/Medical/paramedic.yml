@@ -1,0 +1,36 @@
+- type: job
+  id: Paramedic
+  name: job-name-paramedic
+  description: job-description-paramedic
+  playTimeTracker: JobParamedic
+  setPreference: false # Frontier
+  requirements:
+  - !type:DepartmentTimeRequirement
+    department: Medical
+    time: 9000 #2.5 hrs
+  startingGear: ParamedicGear
+  icon: "JobIconParamedic"
+  supervisors: job-supervisors-hire # Frontier
+  accessGroups: # Frontier
+  - GeneralAccess # Frontier
+
+- type: startingGear
+  id: ParamedicGear
+  equipment:
+    id: ParamedicPDA
+    ears: ClothingHeadsetMedical
+    belt: ClothingBeltMedicalEMTFilled
+  storage:
+    back:
+    - EmergencyRollerBedSpawnFolded
+
+- type: chameleonOutfit
+  id: ParamedicChameleonOutfit
+  job: Paramedic
+  equipment:
+    head: ClothingHeadHatParamedicsoft
+    eyes: ClothingEyesHudMedical
+    mask: ClothingMaskSterile
+    neck: ClothingNeckStethoscope
+    outerClothing: ClothingOuterCoatParamedicWB
+    gloves: ClothingHandsGlovesLatex

@@ -1,0 +1,42 @@
+- type: entity
+  id: StorePresetUplink
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-uplink
+    categories:
+    - UplinkWeaponry
+    - UplinkAmmo
+    - UplinkAttachments # Horizon Attachment
+    - UplinkExplosives
+    - UplinkChemicals
+    - UplinkDeception
+    - UplinkDisruption
+    - UplinkImplants
+    - UplinkAllies
+    - UplinkWearables
+    - UplinkJob
+    - UplinkPointless
+    - UplinkMechMechs # Horizon Mechs
+    - UplinkMechWeapon # Horizon Mechs
+    - UplinkMechEquipment # Horizon Mechs
+    - UplinkGunnery # Horizon Gunnery
+    currencyWhitelist:
+    - Telecrystal
+    balance:
+      Telecrystal: 0
+
+- type: entity
+  id: StorePresetSpellbook
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-spellbook
+    categories:
+    - SpellbookOffensive    #Fireball, Rod Form
+    - SpellbookDefensive    #Magic Missile, Wall of Force
+    - SpellbookUtility      #Body Swap, Lich, Teleport, Knock, Polymorph
+    - SpellbookEquipment    #Battlemage Robes, Staff of Locker
+    - SpellbookEvents       #Summon Weapons, Summon Ghosts
+    currencyWhitelist:
+    - WizCoin

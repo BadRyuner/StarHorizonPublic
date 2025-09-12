@@ -1,0 +1,62 @@
+- type: vendingMachineInventory
+  id: WeaponryWorksVendInventory
+  startingInventory:
+  # Weapons
+    NFWeaponEnergyPistolLaser: 1
+    NFWeaponRevolverArgenti: 1
+    NFWeaponRevolverFitz: 1
+    NFWeaponRifleRepeater: 1
+    NFWeaponShotgunDoubleBarreled: 1
+    ClothingHandsKnuckleDusters: 1
+    SurvivalKnife: 1
+  # Magazines
+    NFSpeedLoaderPistol35Empty: 1
+    NFSpeedLoaderPistol45Empty: 1
+  # Ammo boxes
+    NFAmmunitionBoxPistol35: 2
+    NFAmmunitionBoxPistol45: 2
+    NFAmmunitionBoxRifle20: 2
+  # Horizon start
+    AttachmentMagneticHarness: 1
+    AttachmentT2Miniscope: 1
+    AttachmentReflexSight: 1
+    AttachmentM90UnderbarrelShotgun: 1
+    AttachmentVerticalGrip: 1
+    AttachmentLaserSight: 1
+    AttachmentSuppressor: 1
+  # Horizon end
+  emaggedInventory:
+    NFWeaponPistolViper: 1
+    AttachmentAntiLyingWarrior: 1 # Horizon
+
+- type: vendingMachineInventory
+  id: WeaponryWorksVendPOIInventory
+  startingInventory:
+  # Weapons
+    NFWeaponEnergyPistolLaser: 4294967295
+    NFWeaponRevolverArgenti: 4294967295
+    NFWeaponRevolverFitz: 4294967295
+    NFWeaponRifleRepeater: 4294967295
+    NFWeaponShotgunDoubleBarreled: 4294967295
+    ClothingHandsKnuckleDusters: 4294967295
+    SurvivalKnife: 4294967295
+  # Magazines
+    NFSpeedLoaderPistol35Empty: 4294967295
+    NFSpeedLoaderPistol45Empty: 4294967295
+  # Ammo boxes
+    NFAmmunitionBoxPistol35: 4294967295
+    NFAmmunitionBoxPistol45: 4294967295
+    NFAmmunitionBoxRifle20: 4294967295
+    NFAmmunitionBoxShellShotgunBuckshot: 4294967295
+    NFAmmunitionBoxShellShotgunBeanbag: 4294967295
+  # Horizon start
+    AttachmentMagneticHarness: 4294967295
+    AttachmentT2Miniscope: 4294967295
+    AttachmentReflexSight: 4294967295
+    AttachmentM90UnderbarrelShotgun: 4294967295
+    AttachmentVerticalGrip: 4294967295
+    AttachmentLaserSight: 4294967295
+    AttachmentSuppressor: 4294967295
+  # Horizon end
+  emaggedInventory:
+    NFWeaponPistolViper: 1
