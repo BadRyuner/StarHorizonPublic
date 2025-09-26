@@ -5,9 +5,9 @@
     sprite: Objects/Tanks/emergency_double.rsi
     state: icon
   product: CrateDoubleEmergencyTank
-  cost: 2400
+  cost: 2400 # В свободном доступе на фронтире, кто его купит... Не знаю.
   category: cargoproduct-category-name-cargo
-  group: SalvageJobReward2
+  group: market
 
 - type: cargoProduct
   id: CargoSeismicCharge
@@ -15,9 +15,9 @@
     sprite: Objects/Weapons/Bombs/seismic.rsi
     state: icon
   product: CrateSeismicCharge
-  cost: 1800
+  cost: 2900 # Было 1800, Слишком уж мало для взрывчатки.
   category: cargoproduct-category-name-cargo
-  group: SalvageJobReward2
+  group: market
 
 - type: cargoProduct
   id: CargoCrusher
@@ -27,7 +27,7 @@
   product: CrateCrusher
   cost: 5000
   category: cargoproduct-category-name-cargo
-  group: SalvageJobReward2
+  group: market
 
 - type: cargoProduct
   id: CargoSalvageHardsuit
@@ -35,9 +35,9 @@
     sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi
     state: icon
   product: CrateSalvageHardsuit
-  cost: 7500
+  cost: 7500 # Хрень, а не скаф. Замедляет и дает мало защиты.
   category: cargoproduct-category-name-cargo
-  group: SalvageJobReward2
+  group: market
 
 # Rank 3
 - type: cargoProduct
@@ -46,9 +46,9 @@
     sprite: /Textures/Objects/Tools/fulton.rsi
     state: extraction_pack
   product: CrateFulton
-  cost: 3000
+  cost: 17500 # Слишком Имба за 3500, Сделал 17500.
   category: cargoproduct-category-name-cargo
-  group: SalvageJobReward3
+  group: market
 
 - type: cargoProduct
   id: CargoVoidJetpack
@@ -56,9 +56,9 @@
     sprite: Objects/Tanks/Jetpacks/void.rsi
     state: icon
   product: CrateVoidJetpack
-  cost: 4000
+  cost: 19000 # Изучаемый объект, поэтому увеличена цена.
   category: cargoproduct-category-name-cargo
-  group: SalvageJobReward3
+  group: market
 
 - type: cargoProduct
   id: CargoCrusherGlaive
@@ -66,9 +66,9 @@
     sprite: Objects/Weapons/Melee/crusher_glaive.rsi
     state: icon
   product: CrateCrusherGlaive
-  cost: 8000
+  cost: 11000 # Продвинутый крашер, поэтому такая цена. Было 7500
   category: cargoproduct-category-name-cargo
-  group: SalvageJobReward3
+  group: market
 
 # Max Rank
 
@@ -78,6 +78,6 @@
     sprite: Clothing/Neck/Cloaks/miner.rsi
     state: icon
   product: CrateSupremeSalvagerCloak
-  cost: 25000
+  cost: 7500 # Было 25000, Сделал 7500 (Это просто плащ.)
   category: cargoproduct-category-name-cargo
-  group: SalvageJobRewardMAX
+  group: market
